@@ -18,7 +18,7 @@ function Register()
 
   const regSubmit = () =>
   {
-    const res=axios.post("https://demobackend-0zsi.onrender.com/register",data)
+    const res=axios.post("https://demobackend1.onrender.com/register",data)
     console.log(res)
   }
 
